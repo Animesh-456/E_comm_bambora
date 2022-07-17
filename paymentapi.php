@@ -22,7 +22,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, $jsontosend);
 //paymentapi key is different from main api key
 //go to google and search for base64encoded and encode your code in it and paste it here instead AbcdEFghIJ.. here
 curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-    'Authorization: Passcode MzAwMjEyOTg4OmQ3QTMxRTUxZjBDNTQ3Q0JCMTREYmIyNWNiRDVFQUND',
+    'Authorization: Passcode ABcdEFGh...',
     'Content-Type: application/json',
 ));
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);

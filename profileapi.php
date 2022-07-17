@@ -15,7 +15,7 @@ curl_setopt($curl, CURLOPT_POST, 1);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $jsontosend);
 //replace the "ABcdEFghIjKLmnOPqrStUvwwxyz" with the base64encoded(merchantid:apikey)
 curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-    'Authorization: Passcode MzAwMjEyOTg4OmQ3QTMxRTUxZjBDNTQ3Q0JCMTREYmIyNWNiRDVFQUND',
+    'Authorization: Passcode ABcdEFghIjKLmnOPqrStUvwwxyz',
     'Content-Type: application/json',
 ));
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
